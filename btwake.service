@@ -4,7 +4,7 @@ After=multi-user.target
 
 [Service]
 Type=idle
-ExecStart=/bin/bash /home/pi/btwake/run.sh 12:34:56:78:91:01 01:91:78:56:34:12
+ExecStart=/bin/bash /home/pi/BTWake/run.sh 12:34:56:78:91:01 01:91:78:56:34:12
 
 [Install]
 WantedBy=multi-user.target

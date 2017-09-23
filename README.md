@@ -37,7 +37,7 @@ You now need to place this unit file into the correct folder and start it.
 ```
 cp ./btwake.service /lib/systemd/system/btwake.service
 sudo chmod 644 /lib/systemd/system/btwake.service
-sudo systemct daemon-reload
+sudo systemctl daemon-reload
 sudo systemctl enable btwake.service
 sudo systemctl start btwake.service
 ```
